@@ -1,0 +1,116 @@
+/* Begin subtlegrey style menu */
+#menuBuilder{
+	background-color: #efefef;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ccc;
+}
+#menuBuilder #nav ul li.menu_items{
+	background-color: #efefef;
+	border-right: 1px solid #ccc;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	line-height: 2.4em;
+	text-align: center;
+	padding-top:2px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	margin-left: 0%;
+	margin-bottom: 0px;
+	margin-right: 0%;
+	
+	width: 18%;
+}
+#menuBuilder #nav ul li ul.submenus{
+	margin: 1px 0 0 5%;
+	width: 90%;
+}
+#menuBuilder #nav ul li.menu_items:hover{
+	background-image: url("../images/button_bottom_bar.png");
+	background-position: 0px bottom;
+	background-repeat: repeat-x;
+	background-color: #efefef;
+}
+#menuBuilder #nav ul li.menu_items.coffeeBuilderHoverButtons {
+	background-image: url("../images/button_bottom_bar.png");
+	background-position: 0px bottom;
+	background-repeat: repeat-x;
+	background-color: #efefef;
+}
+#menuBuilder #nav ul li.menu_items > a span.text_menu_link {
+	color: #767777;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 2.4em;
+}
+#menuBuilder #nav ul li.menu_items:hover a span.text_menu_link {
+	color: #A1ADD1;
+	text-align: center;
+}
+#menuBuilder #nav ul li.menu_items a.coffeeBuilderHoverButtonsFont span.text_menu_link {
+	color: #A1ADD1;
+	text-align: center;
+}
+#menuBuilder #nav ul li ul li.submenus_items a:hover span.text_menu_link {
+	text-align: center;
+	color: #A1ADD1;
+}
+#menuBuilder #nav ul li ul li.submenus_items a.coffeeBuilderHoverAllSubButtonsOther span.text_menu_link {
+	text-align: center;
+	color: #A1ADD1;
+	font-size: 1em;
+}
+#menuBuilder #nav ul li.menu_items ul{
+	border: none;
+}
+#menuBuilder #nav ul li{
+	background-color: #efefef;
+}
+#menuBuilder #nav ul li ul li.submenus_items{
+	width:100%;
+	background-color: #efefef;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-top: none;
+	padding-top:5px;
+	padding-bottom: 5px;
+	line-height: 2.5em;
+}
+#menuBuilder #nav ul li ul li.submenus_items:hover{
+	background-color: #ddd;
+	color:#A1ADD1;
+}
+#menuBuilder #nav ul li ul li.submenus_items.coffeeBuilderHoverAllSubButtons {
+	background-color: #ddd;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+#menuBuilder #nav ul li ul li.submenus_items > a span.text_menu_link {
+	color: #767777;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 2.4em;
+}
+#menuBuilder .nav-button{
+	background: #efefef;
+	color: #767777;
+	background-image: url("../images/button_bottom_bar.png");
+	background-position: 0px bottom;
+	background-repeat: repeat-x;
+	line-height: 1.5em;
+	font-size: 13px;
+	margin: 2px 0px 2px 0px;
+}
+#menuBuilder .nav-button:hover
+{
+	color: #767777;
+}
+#menuBuilder .nav-button-slider:hover
+{
+	color: #767777;
+}
+/* End subtlegrey style for menu */

@@ -1,0 +1,70 @@
+/* Begin Minimal Glass style menu */
+#menuBuilder{
+	border: 0;
+	background-color: transparent;
+}
+#menuBuilder #nav ul li.menu_items{
+	background-color: #f5f8ff;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #363636;
+	border-bottom: 3px solid #363636;
+	border-left: none;
+	line-height: 2.5em;
+	text-align: center;
+	padding-top: 22px;
+	padding-right: 0%;
+	padding-bottom: 11px;
+	padding-left: 0%;
+	margin-top: 0px;
+	margin-right: 0%;
+	margin-bottom: 2px;
+	margin-left: 0%;
+	width: 25%;
+}
+#menuBuilder #nav ul li.menu_items:hover{
+	background-color: #f0f5ff;
+}
+#menuBuilder #nav ul li.menu_items.coffeeBuilderHoverButtons {
+	background-color: #f0f5ff;
+}
+#menuBuilder #nav ul li.menu_items > a span.text_menu_link {
+	color: #474747;
+	text-align: center;
+}
+#menuBuilder #nav ul li.menu_items:hover a span.text_menu_link {
+	color: #474747;
+	text-align: center;
+}
+#menuBuilder #nav ul li.menu_items a.coffeeBuilderHoverButtonsFont span.text_menu_link {
+	color: #767777;
+	text-align: center;
+}
+#menuBuilder #nav ul li.menu_items ul{
+	border: none;
+}
+#menuBuilder #nav ul li ul li.submenus_items{
+	width:100%;
+	background-color: #edf7fc;
+	border-bottom: 1px solid #363636;
+	border-right: none;
+	border-left: none;
+	line-height: 2.5em;
+	margin: 0;
+	padding-top:12px;
+	padding-bottom: 6px;
+}
+#menuBuilder #nav ul li ul li.submenus_items:hover{
+	background-color: #f5f8ff;
+}
+#menuBuilder #nav ul li ul li.submenus_items.coffeeBuilderHoverAllSubButtons {
+	background-color: #f5f8ff;
+}
+#menuBuilder #nav ul li ul li.submenus_items > a span.text_menu_link {
+	color: #555555;
+	text-align: center;
+	font-size: 0.9em;
+}
+#menuBuilder .nav-button{
+	margin-bottom: 2px;
+}
+/* End Miminal Glass style for menu */

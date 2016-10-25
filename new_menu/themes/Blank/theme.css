@@ -1,0 +1,25 @@
+/* Begin tangerine style menu */
+#menuBuilder #nav ul li.menu_items {
+	border-right: 1px solid #767777;
+	line-height: 2.5em;
+	text-align: center;
+}
+#menuBuilder #nav ul li ul li.submenus_items{
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 1px solid #767777;
+	line-height: 2.5em;
+}
+#menuBuilder #nav ul li ul li.submenus_items > a span.text_menu_link {
+	color: #767777;
+}
+#menuBuilder .nav-button{
+	border-bottom: 4px solid #A1ADD1;
+}
+#menuBuilder #nav ul li.menu_items ul{
+	background-color: #ffffff;
+}
+#menuBuilder #nav ul li.menu_items > a span.text_menu_link {
+	color: #767777; 
+}
+/* End tangerine style for menu */

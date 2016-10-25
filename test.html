@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/default.css" />
+        <link rel="stylesheet" type="text/css" href="theme/default/css/default.css" id="theme" />
+        <script type="text/javascript">
+
+            function checkForm(form)
+            {
+                // validation fails if the input is blank
+                if (form.nominal.value == "") {
+                    alert("Anda harus memasukkan nominal");
+                    form.nominal.focus();
+                    return false;
+                }
+
+                // regular expression to match only alphanumeric characters and spaces
+                var re = /^[\w ]+$/;
+
+                // validation fails if the input doesn't match our regular expression
+                if (!re.test(form.inputfield.value)) {
+                    alert("Error: Input contains invalid characters!");
+                    form.inputfield.focus();
+                    return false;
+                }
+
+                // validation was successful
+                return true;
+            }
+
+        </script>
+    </head>
+    <body>
+        <div>
+            <form class="fb-toplabel fb-100-item-column selected-object" id="docContainer"
+                  action="test.php" enctype="multipart/form-data" method="post" 
+                  data-form="preview" onsubmit="return checkForm(this);">
+                <div class="fb-form-header" id="fb-form-header1" style="min-height: 0px;">
+                    <a class="fb-link-logo" id="fb-link-logo1" target="_blank"><img title="Alternative text" class="fb-logo" id="fb-logo1" style="display: none;" alt="Alternative text" src="common/images/image_default.png"/></a>
+                </div>
+                <div class="section" id="section1">
+                    <div class="column ui-sortable" id="column1">
+                        <div class="fb-item fb-100-item-column" id="item1">
+                            <div class="fb-header fb-item-alignment-center">
+                                <h2 style="display: inline;">
+                                    Top Up Saldo
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="fb-item fb-100-item-column" id="item2">
+                            <div class="fb-grouplabel">
+                                <label id="item2_label_0" style="display: inline;">Masukkan Nominal</label>
+                            </div>
+                            <div class="fb-input-box">
+                                <input name="nominal" id="item2_text_1" type="text" maxlength="254" placeholder="must integer" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fb-captcha fb-item-alignment-center" id="fb-captcha_control"
+                     style="display: none; cursor: default;">
+                    <img src="editordata/images/recaptchawhite.png" />
+                </div>
+                <div class="fb-item-alignment-left fb-footer" id="fb-submit-button-div"
+                     style="min-height: 0px;">
+                    <input class="fb-button-special" id="fb-submit-button" type="submit" data-regular="url('file:///C:/Users/Archisdiningrat/AppData/Local/Temp/FormBuilder/theme/default/images/btn_submit.png')"
+                           value="Request" />
+                </div>
+            </form>
+
+
+        </div>
+    </body>
+</html>

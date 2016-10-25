@@ -1,0 +1,50 @@
+#menuBuilder #nav > ul, #menuBuilder #nav ul li ul.submenus {
+	margin: 0px 0%;
+	padding: 0px 0%;
+}
+#menuBuilder {
+    margin: 25px auto 0px auto;
+    padding: 0px 0%;
+}
+#menuBuilder .nav-collapse, #menuBuilder #mainmenu_preview, #menuBuilder #mainmenu{
+	clear: both;
+	display: none;
+}
+#menuBuilder .nav-button, #menuBuilder .nav-button-slider{
+	display: block;
+}
+#menuBuilder .nav-button {
+	border-bottom: 4px solid #A1ADD1;
+    text-align: left;
+}
+#menuBuilder #nav ul li.menu_items {
+	width: 100%;
+	float: none;
+	padding: 0px 0%;
+	margin: 2px 0% 0px 0%;
+}
+#menuBuilder #nav ul li ul li.submenus_items {
+	padding: 0px 0%;
+	margin: 0px 0%;
+	width: 100%;
+} 
+#menuBuilder #nav ul li.menu_items ul {
+	width: 100%;
+}
+#menuBuilder #nav ul li ul.submenus{
+	display: none;
+	position: relative;
+	top: 100%;
+	left: 0;
+	padding: 0%;
+	width: auto;
+	z-index: 2000;
+}
+#menuBuilder #nav ul li.menu_items a {
+	padding: 0px 0%;
+}
+#menuBuilder #nav ul li a span.text_menu_link {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
